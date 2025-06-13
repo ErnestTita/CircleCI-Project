@@ -279,4 +279,4 @@ Includes:
 - Adjust replica counts based on traffic
 - Monitor database performance and storage
 - Review LoadBalancer capacity and costs
-- Consider multi-region deployment for HA
+- Consider multi-region deployment for HA.
