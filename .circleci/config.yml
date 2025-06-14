@@ -48,8 +48,8 @@ jobs:
           name: Build and push Docker images
           command: |
             # Build with commit SHA tag (uses direct build commands)
-            docker build -t ernesttita/circleci-project .
-            docker push ernesttita/circleci-project .
+            docker build -t ernesttita/circleci-project:tagname .
+            docker push ernesttita/circleci-project:tagname .
 
   deploy-staging:
     executor: aws-executor
